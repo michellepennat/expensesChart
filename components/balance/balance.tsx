@@ -1,11 +1,3 @@
-// export interface ICatCard {
-//   tag: string;
-//   title: string;
-//   body: string;
-//   author: string;
-//   time: string;
-// }
-
 const Balance = () => {
   return (
     <section className="balance">

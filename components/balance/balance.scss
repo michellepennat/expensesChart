@@ -9,11 +9,12 @@
   padding: 20px 24px 22px 20px;
   border-radius: 10px;
   background-color: $soft-red;
+  margin-bottom: 16px;
 
   h5 {
     @include fontMiniCaption;
     color: $white;
-    margin-bottom: 4px
+    margin-bottom: 4px;
   }
 
   h3 {
@@ -21,8 +22,27 @@
     color: $white;
   }
 
-  img{
+  img {
     width: 60px;
     height: 40px;
+  }
+
+  @media (min-width: 768px) {
+    padding: 27px 39px 25px 32px;
+    height: 125px;
+
+    h5 {
+      @include fontBody;
+      margin-bottom: 8px;
+    }
+
+    h3 {
+      @include fontHeadingL;
+    }
+
+    img {
+      width: 72px;
+      height: 48px;
+    }
   }
 }
