@@ -8,7 +8,7 @@ const Chart = () => {
       <h3>Spending - Last 7 days</h3>
       <ul className="resume__chart">
         {columns.map((column) => (
-          <li className="tooltip">
+          <li key={column.id} className="tooltip">
             <span
               className="tooltiptext"
               style={{ bottom: `${column.height + 28}px` }}

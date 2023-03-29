@@ -1,3 +1,6 @@
+import Image from "next/image";
+import balanceSVG from "../../public/img/balanceSVG.svg";
+
 const Balance = () => {
   return (
     <section className="balance">
@@ -5,7 +8,7 @@ const Balance = () => {
         <h5>My balance</h5>
         <h3>$921.48</h3>
       </div>
-      <img src="/img/balanceSVG.svg" alt="Balance" />
+      <Image src={balanceSVG} alt="Balance" />
     </section>
   );
 };
