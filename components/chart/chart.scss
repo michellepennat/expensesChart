@@ -17,6 +17,11 @@
   hr {
     margin-block-start: 24px;
     margin-block-end: 24px;
+    border-top-color: rgb(248, 233, 208);
+    border-right-color: rgb(248, 233, 208);
+    border-bottom-color: rgb(248, 233, 208);
+    border-left-color: rgb(248, 233, 208);
+    background-color: rgb(248, 233, 208);
   }
 
   &__chart {
@@ -66,13 +71,13 @@
     display: flex;
     justify-content: space-between;
 
-    h5 {
+    h4 {
       @include fontMiniCaption;
       color: $dark-brown;
     }
 
     .total {
-      h5 {
+      h4 {
         margin-bottom: 4px;
       }
       h1 {
@@ -133,13 +138,13 @@
     }
 
     &__total-month {
-      h5 {
+      h4 {
         @include fontBody;
         color: $dark-brown;
       }
 
       .total {
-        h5 {
+        h4 {
           margin-bottom: 1px;
         }
         h1 {

@@ -11,7 +11,7 @@
   background-color: $soft-red;
   margin-bottom: 16px;
 
-  h5 {
+  h4 {
     @include fontMiniCaption;
     color: $white;
     margin-bottom: 4px;
@@ -31,7 +31,7 @@
     padding: 27px 39px 25px 32px;
     height: 125px;
 
-    h5 {
+    h4 {
       @include fontBody;
       margin-bottom: 8px;
     }

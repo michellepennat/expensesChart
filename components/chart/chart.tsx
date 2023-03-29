@@ -25,15 +25,15 @@ const Chart = () => {
           </li>
         ))}
       </ul>
-      <hr color="#f8e9d" />
+      <hr />
       <div className="resume__total-month">
         <div className="total">
-          <h5>Total this month</h5>
+          <h4>Total this month</h4>
           <h1>$478.33</h1>
         </div>
         <div className="increment">
           <p>+2.4%</p>
-          <h5>from last month</h5>
+          <h4>from last month</h4>
         </div>
       </div>
     </section>
